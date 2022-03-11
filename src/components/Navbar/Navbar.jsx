@@ -1,8 +1,11 @@
 import React from 'react'
+import { CardWidget } from '../cards/CardWidget'
 import "./Navbar.css"
 
 export const Navbar = () => {
   return (
+
+    <>
     <div className="App">
      <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
@@ -42,5 +45,7 @@ export const Navbar = () => {
   </div>
 </nav> 
     </div>
+    <div>{CardWidget}</div>
+    </>
   )
 }
